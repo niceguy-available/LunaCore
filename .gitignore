@@ -46,3 +46,5 @@ registration_test_output/
 .idea/
 .DS_Store
 Thumbs.db
+*.egg-info/
+.pytest_cache/
