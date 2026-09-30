@@ -1,0 +1,19 @@
+# Lunar Image Registration Platform — Backend Dependencies
+# ISRO SIH 2026 | Problem Statement 26166
+
+# Core Computer Vision & Scientific Math
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-image>=0.21.0
+
+# API & Server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+
+# Utilities
+matplotlib>=3.7.0
+Pillow>=10.0.0
+tqdm>=4.66.0

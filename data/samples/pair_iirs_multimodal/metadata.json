@@ -1,0 +1,13 @@
+{
+  "id": "pair_iirs_multimodal",
+  "name": "Chandrayaan-2 IIRS (Hyperspectral) to TMC-2 Pair",
+  "source_sensor": "IIRS",
+  "reference_sensor": "TMC2",
+  "source_path": "data\\samples\\pair_iirs_multimodal\\source.png",
+  "reference_path": "data\\samples\\pair_iirs_multimodal\\reference.png",
+  "thumbnail_src": "/samples/pair_iirs_multimodal/thumb_source.jpg",
+  "thumbnail_ref": "/samples/pair_iirs_multimodal/thumb_reference.jpg",
+  "source_url": "/samples/pair_iirs_multimodal/source.png",
+  "reference_url": "/samples/pair_iirs_multimodal/reference.png",
+  "description": "Cross-spectral modal pairing between infrared mineral absorption bands and panchromatic terrain."
+}

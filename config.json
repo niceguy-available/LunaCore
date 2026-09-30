@@ -1,0 +1,66 @@
+{
+  "preprocessing": {
+    "enhance_contrast": true,
+    "contrast_clip_limit": 2.0,
+    "contrast_tile_size": 8,
+    "remove_illumination_bias": true,
+    "illumination_kernel_size": 31,
+    "normalize_intensity": true
+  },
+  "feature_extraction": {
+    "method": "sift",
+    "sift_params": {
+      "nfeatures": 0,
+      "nOctaveLayers": 3,
+      "contrastThreshold": 0.03,
+      "edgeThreshold": 10,
+      "sigma": 1.6
+    },
+    "crater_detection": {
+      "enabled": true,
+      "min_radius": 5,
+      "max_radius": 50,
+      "hough_dp": 1,
+      "hough_mindist": 30,
+      "hough_param1": 50,
+      "hough_param2": 30
+    }
+  },
+  "feature_matching": {
+    "method": "flann",
+    "lowe_ratio": 0.75,
+    "min_matches": 4,
+    "ransac_threshold": 5.0
+  },
+  "registration": {
+    "transformation_type": "homography",
+    "refine_alignment": true,
+    "refinement_method": "powell",
+    "max_iterations": 100
+  },
+  "validation": {
+    "compute_metrics": true,
+    "metrics": [
+      "rmse",
+      "mae",
+      "correlation",
+      "ssim",
+      "mutual_info",
+      "gradient_corr"
+    ],
+    "quality_score_weights": {
+      "correlation": 0.3,
+      "ssim": 0.3,
+      "gradient_corr": 0.2,
+      "mutual_info": 0.2
+    }
+  },
+  "output": {
+    "save_registered_image": true,
+    "save_transformation_matrix": true,
+    "save_metrics": true,
+    "save_visualization": true,
+    "visualization_dpi": 150
+  },
+  "debug": false
+}

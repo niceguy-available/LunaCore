@@ -1,0 +1,13 @@
+{
+  "id": "pair_mare_plains",
+  "name": "Lunar Mare Basalt Plains (Low-Contrast)",
+  "source_sensor": "TMC2",
+  "reference_sensor": "TMC2",
+  "source_path": "backend\\static\\samples\\pair_mare_plains\\source.png",
+  "reference_path": "backend\\static\\samples\\pair_mare_plains\\reference.png",
+  "thumbnail_src": "/samples/pair_mare_plains/thumb_source.jpg",
+  "thumbnail_ref": "/samples/pair_mare_plains/thumb_reference.jpg",
+  "source_url": "/samples/pair_mare_plains/source.png",
+  "reference_url": "/samples/pair_mare_plains/reference.png",
+  "description": "Smooth basalt regolith with low relief, testing fine feature extraction and sub-pixel flow."
+}

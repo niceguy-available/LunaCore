@@ -1,0 +1,13 @@
+{
+  "id": "pair_cross_modal",
+  "name": "Chandrayaan-2 OHRC (0.25m) to TMC-2 (5m) Scale Pair",
+  "source_sensor": "OHRC",
+  "reference_sensor": "TMC2",
+  "source_path": "backend\\static\\samples\\pair_cross_modal\\source.png",
+  "reference_path": "backend\\static\\samples\\pair_cross_modal\\reference.png",
+  "thumbnail_src": "/samples/pair_cross_modal/thumb_source.jpg",
+  "thumbnail_ref": "/samples/pair_cross_modal/thumb_reference.jpg",
+  "source_url": "/samples/pair_cross_modal/source.png",
+  "reference_url": "/samples/pair_cross_modal/reference.png",
+  "description": "High-resolution OHRC sub-frame zoom mapped into TMC-2 regional base terrain context."
+}

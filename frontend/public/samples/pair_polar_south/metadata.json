@@ -1,0 +1,13 @@
+{
+  "id": "pair_polar_south",
+  "name": "Lunar South Pole Deep Crater Shadows",
+  "source_sensor": "TMC2",
+  "reference_sensor": "TMC2",
+  "source_path": "frontend\\public\\samples\\pair_polar_south\\source.png",
+  "reference_path": "frontend\\public\\samples\\pair_polar_south\\reference.png",
+  "thumbnail_src": "/samples/pair_polar_south/thumb_source.jpg",
+  "thumbnail_ref": "/samples/pair_polar_south/thumb_reference.jpg",
+  "source_url": "/samples/pair_polar_south/source.png",
+  "reference_url": "/samples/pair_polar_south/reference.png",
+  "description": "Low sun elevation (14\u00b0\u201318\u00b0) casting elongated shadows near polar permanently shadowed regions."
+}

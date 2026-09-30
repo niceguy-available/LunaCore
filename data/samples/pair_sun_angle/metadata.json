@@ -1,0 +1,13 @@
+{
+  "id": "pair_sun_angle",
+  "name": "Chandrayaan-2 TMC-2 Solar Azimuth Shift",
+  "source_sensor": "TMC2",
+  "reference_sensor": "TMC2",
+  "source_path": "data\\samples\\pair_sun_angle\\source.png",
+  "reference_path": "data\\samples\\pair_sun_angle\\reference.png",
+  "thumbnail_src": "/samples/pair_sun_angle/thumb_source.jpg",
+  "thumbnail_ref": "/samples/pair_sun_angle/thumb_reference.jpg",
+  "source_url": "/samples/pair_sun_angle/source.png",
+  "reference_url": "/samples/pair_sun_angle/reference.png",
+  "description": "Same terrain under 45\u00b0 vs 75\u00b0 solar illumination with 4\u00b0 rotation and translation shift."
+}

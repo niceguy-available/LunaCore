@@ -1,0 +1,68 @@
+[
+  {
+    "id": "pair_sun_angle",
+    "name": "Chandrayaan-2 TMC-2 Solar Azimuth Shift",
+    "source_sensor": "TMC2",
+    "reference_sensor": "TMC2",
+    "description": "Same terrain under 45\u00b0 vs 75\u00b0 solar illumination with 4\u00b0 rotation and translation shift.",
+    "source_url": "/samples/pair_sun_angle/source.png",
+    "reference_url": "/samples/pair_sun_angle/reference.png",
+    "thumb_src": "/samples/pair_sun_angle/thumb_source.jpg",
+    "thumb_ref": "/samples/pair_sun_angle/thumb_reference.jpg"
+  },
+  {
+    "id": "pair_cross_modal",
+    "name": "Chandrayaan-2 OHRC (0.25m) to TMC-2 (5m) Scale Pair",
+    "source_sensor": "OHRC",
+    "reference_sensor": "TMC2",
+    "description": "High-resolution OHRC sub-frame zoom mapped into TMC-2 regional base terrain context.",
+    "source_url": "/samples/pair_cross_modal/source.png",
+    "reference_url": "/samples/pair_cross_modal/reference.png",
+    "thumb_src": "/samples/pair_cross_modal/thumb_source.jpg",
+    "thumb_ref": "/samples/pair_cross_modal/thumb_reference.jpg"
+  },
+  {
+    "id": "pair_polar_south",
+    "name": "Lunar South Pole Deep Crater Shadows",
+    "source_sensor": "TMC2",
+    "reference_sensor": "TMC2",
+    "description": "Low sun elevation (14\u00b0\u201318\u00b0) casting elongated shadows near polar permanently shadowed regions.",
+    "source_url": "/samples/pair_polar_south/source.png",
+    "reference_url": "/samples/pair_polar_south/reference.png",
+    "thumb_src": "/samples/pair_polar_south/thumb_source.jpg",
+    "thumb_ref": "/samples/pair_polar_south/thumb_reference.jpg"
+  },
+  {
+    "id": "pair_mare_plains",
+    "name": "Lunar Mare Basalt Plains (Low-Contrast)",
+    "source_sensor": "TMC2",
+    "reference_sensor": "TMC2",
+    "description": "Smooth basalt regolith with low relief, testing fine feature extraction and sub-pixel flow.",
+    "source_url": "/samples/pair_mare_plains/source.png",
+    "reference_url": "/samples/pair_mare_plains/reference.png",
+    "thumb_src": "/samples/pair_mare_plains/thumb_source.jpg",
+    "thumb_ref": "/samples/pair_mare_plains/thumb_reference.jpg"
+  },
+  {
+    "id": "pair_rugged_crater",
+    "name": "Rugged Impact Crater Rim & Slopes",
+    "source_sensor": "OHRC",
+    "reference_sensor": "TMC2",
+    "description": "Complex crater wall slopes and central peak terrain undergoing significant illumination changes.",
+    "source_url": "/samples/pair_rugged_crater/source.png",
+    "reference_url": "/samples/pair_rugged_crater/reference.png",
+    "thumb_src": "/samples/pair_rugged_crater/thumb_source.jpg",
+    "thumb_ref": "/samples/pair_rugged_crater/thumb_reference.jpg"
+  },
+  {
+    "id": "pair_iirs_multimodal",
+    "name": "Chandrayaan-2 IIRS (Hyperspectral) to TMC-2 Pair",
+    "source_sensor": "IIRS",
+    "reference_sensor": "TMC2",
+    "description": "Cross-spectral modal pairing between infrared mineral absorption bands and panchromatic terrain.",
+    "source_url": "/samples/pair_iirs_multimodal/source.png",
+    "reference_url": "/samples/pair_iirs_multimodal/reference.png",
+    "thumb_src": "/samples/pair_iirs_multimodal/thumb_source.jpg",
+    "thumb_ref": "/samples/pair_iirs_multimodal/thumb_reference.jpg"
+  }
+]

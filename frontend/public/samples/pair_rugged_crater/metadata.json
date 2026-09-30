@@ -1,0 +1,13 @@
+{
+  "id": "pair_rugged_crater",
+  "name": "Rugged Impact Crater Rim & Slopes",
+  "source_sensor": "OHRC",
+  "reference_sensor": "TMC2",
+  "source_path": "frontend\\public\\samples\\pair_rugged_crater\\source.png",
+  "reference_path": "frontend\\public\\samples\\pair_rugged_crater\\reference.png",
+  "thumbnail_src": "/samples/pair_rugged_crater/thumb_source.jpg",
+  "thumbnail_ref": "/samples/pair_rugged_crater/thumb_reference.jpg",
+  "source_url": "/samples/pair_rugged_crater/source.png",
+  "reference_url": "/samples/pair_rugged_crater/reference.png",
+  "description": "Complex crater wall slopes and central peak terrain undergoing significant illumination changes."
+}
